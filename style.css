@@ -18,10 +18,10 @@
 }
 .button {
   font-weight: bold;
-  background: -webkit-linear-gradient(top, #8f6b29, #fde08d, #df9f28);
+  /* background: -webkit-linear-gradient(top, #8f6b29, #fde08d, #df9f28); */
 }
 .button:hover {
-  background: -webkit-linear-gradient(top, #df9f28, #fde08d, #8f6b29);
+  /* background: -webkit-linear-gradient(top, #df9f28, #fde08d, #8f6b29); */
 }
 .button-add {
   font-weight: bold;
