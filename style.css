@@ -1,0 +1,40 @@
+.main-section {
+  background-color: #fcfaf6be;
+}
+.main-section-banner {
+  background-image: url("./assets/images/box.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 28%;
+}
+.giftimage {
+  width: 18%;
+  overflow: hidden;
+  transform: rotate(-30deg);
+}
+.giftimage img {
+  overflow: hidden;
+}
+.button {
+  font-weight: bold;
+  background: -webkit-linear-gradient(top, #8f6b29, #fde08d, #df9f28);
+}
+.button:hover {
+  background: -webkit-linear-gradient(top, #df9f28, #fde08d, #8f6b29);
+}
+.button-add {
+  font-weight: bold;
+}
+.button-add:hover {
+  background-color: #df9f28;
+}
+.shadowb {
+  -moz-box-shadow: 2px 2px 2px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 2px 2px 2px rgba(68, 68, 68, 0.6);
+  box-shadow: 2px 2px 2px rgba(68, 68, 68, 0.6);
+}
+.hovergrow:hover {
+  transform: scale(1.04);
+  z-index: 10;
+}
