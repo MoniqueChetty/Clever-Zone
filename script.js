@@ -34,9 +34,7 @@ function generateItems(items) {
       "mt-5",
       "pb-1",
       "border-grey-700",
-      "border-b-2",
-      "w-5/8",
-      "md:w-48"
+      "border-b-2"
     );
     // add div contents to wrapper
     doc.innerHTML = `
