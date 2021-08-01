@@ -28,8 +28,8 @@
 }
 @media screen and (max-width: 500px) {
   .main-section-banner {
-    background-position: right 100px;
+    background-position: right 120px;
     background-repeat: no-repeat;
-    background-size: 28%;
+    background-size: 38%;
   }
 }
