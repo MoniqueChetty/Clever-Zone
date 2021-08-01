@@ -24,7 +24,7 @@ function generateCartItems(cartItems) {
     cartItemsHTML += `
         <div class="cart-item w-full flex items-center pb-4 border-b border-gray-100">
             <!-- Item image -->
-            <div class="md flex w-1/2">
+            <div class="md:flex w-1/2">
               <div class="cart-item-image w-40 h-24 bg-white p-4 rounded-b-lg">
                   <img class="w-full h-full object-contain" src="${item.image}">
               </div>
