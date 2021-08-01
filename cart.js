@@ -39,7 +39,7 @@ function generateCartItems(cartItems) {
               </div>
             </div>
             <!-- Item Counter -->
-            <div class="cart-item-counter w-20 md:w-48 flex items-center">
+            <div class="cart-item-counter mr-3 w-20 md:w-48 flex items-center">
                 <div 
                     data-id="${item.id}" 
                     class="cart-item-decrease shadowb cursor-pointer text-gray-400 bg-gray-100 rounded h-6 w-6 flex justify-center items-center hover:bg-gray-200 mr-2">
