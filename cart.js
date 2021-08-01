@@ -24,17 +24,19 @@ function generateCartItems(cartItems) {
     cartItemsHTML += `
         <div class="cart-item w-full flex items-center pb-4 border-b border-gray-100">
             <!-- Item image -->
-            <div class="cart-item-image w-40 h-24 bg-white p-4 rounded-b-lg">
-                <img class="w-full h-full object-contain" src="${item.image}">
-            </div>
-            <!-- Item Details -->
-            <div class="cart-item-details w-1/2">
-                <div class="cart-item-title font-bold text-sm text-gray-600">
-                    ${item.name}
-                </div>
-                <div class="cart-item-brand text-sm text-gray-400">
-                    ${item.make}
-                </div>
+            <div class="md flex w-1/2">
+              <div class="cart-item-image w-40 h-24 bg-white p-4 rounded-b-lg">
+                  <img class="w-full h-full object-contain" src="${item.image}">
+              </div>
+              <!-- Item Details -->
+              <div class="cart-item-details w-1/2">
+                  <div class="cart-item-title font-bold text-sm text-gray-600">
+                      ${item.name}
+                  </div>
+                  <div class="cart-item-brand text-sm text-gray-400">
+                      ${item.make}
+                  </div>
+              </div>
             </div>
             <!-- Item Counter -->
             <div class="cart-item-counter w-20 md:w-48 flex items-center">
