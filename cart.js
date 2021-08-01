@@ -22,7 +22,7 @@ function generateCartItems(cartItems) {
   let cartItemsHTML = "";
   cartItems.forEach((item) => {
     cartItemsHTML += `
-        <div class="cart-item flex items-center pb-4 border-b border-gray-100">
+        <div class="cart-item md:flex md:items-center pb-4 border-b border-gray-100">
             <!-- Item image -->
             <div class="cart-item-image w-40 h-24 bg-white p-4 rounded-b-lg">
                 <img class="w-full h-full object-contain" src="${item.image}">
