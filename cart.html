@@ -25,18 +25,18 @@
 </head>
 <body>
      <div class="wrapper w-full h-full ">
-        <header class="header bg-black flex items-center justify-around ">
+                <header class="header bg-black flex items-center justify-around flex-wrap ">
             <!-- Logo -->
             
-            <div class="logo w-1/5 h-16 ml-10 pt-1 flex items-center">
+            <div class="logo md:w-1/5 h-16 ml-10 pt-1 flex items-center">
                 <a href="./index.html">
                     <img class="w-21 h-11 object-contain" src="./assets/images/logo.png" alt="">
                 </a>
             </div>
         
             <!-- Search / Categories -->
-            <div class="flex justify-center">
-                <input class="h-9 w-30 bg-gray-600 border-gray-900 border-opacity-75 border-r-2 rounded-l-xl px-3 text-white ml-6 focus:outline-none placeholder-white" id="search" type="text" placeholder="Search...">
+            <div class="flex justify-center ">
+                <input class="h-9 w-20 md:w-30 bg-gray-600 border-gray-900 border-opacity-75 border-r-2 rounded-l-xl px-3 text-white ml-6 focus:outline-none placeholder-white" id="search" type="text" placeholder="Search...">
                 <div class="categories h-9 w-30 bg-gray-600 border-gray-100 border-opacity-75 px-3 text-white flex items-center">
                     categories
                     <svg class="h-4 w-4 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -59,7 +59,7 @@
                 <a href="./cart.html"> 
                     <div class="cart-icon text-white  h-10 w-12 bg-yellow-500 flex items-center justify-center rounded-xl relative">
                         <!-- Counter -->
-                        <div class="cart-item-number absolute -top-1 -right-1 bg-white w-4 h-4 rounded-full flex justify-center items-center text-gray-800 text-xs"> </div>
+                        <div class="cart-item-number absolute -top-1 -right-1 bg-white w-5 h-5 rounded-full flex justify-center items-center text-gray-800 text-xs"> </div>
                         <svg class="text-gray-800 h-5 w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                         </svg>
@@ -72,7 +72,6 @@
                 <svg class="h-12 w-12 rounded" width="80" height="80" data-jdenticon-value="user127"></svg>
             </div>
         </header>
-
         
         <main class="main h-screen flex bg-gray-100">
             <!-- Side Bar -->
