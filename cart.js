@@ -37,7 +37,7 @@ function generateCartItems(cartItems) {
                 </div>
             </div>
             <!-- Item Counter -->
-            <div class="cart-item-counter w-48 flex items-center">
+            <div class="cart-item-counter w-20 md:w-48 flex items-center">
                 <div 
                     data-id="${item.id}" 
                     class="cart-item-decrease shadowb cursor-pointer text-gray-400 bg-gray-100 rounded h-6 w-6 flex justify-center items-center hover:bg-gray-200 mr-2">
@@ -51,7 +51,7 @@ function generateCartItems(cartItems) {
                 </div>
             </div>
             <!-- Item Total -->
-            <div class="cart-item-total-cost w-48 font-bold text-gray-400">
+            <div class="cart-item-total-cost w-20 md:w-48 font-bold text-gray-400">
                 ${numeral(item.quantity * item.price).format("$0,0.00")} 
 
             </div>
