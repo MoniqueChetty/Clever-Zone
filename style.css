@@ -26,9 +26,9 @@
   transform: scale(1.04);
   z-index: 10;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 800px) {
   .main-section-banner {
-    background-position: right, bottom;
+    background-position: right 50px;
     background-repeat: no-repeat;
     background-size: 28%;
   }
