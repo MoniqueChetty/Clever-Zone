@@ -26,3 +26,10 @@
   transform: scale(1.04);
   z-index: 10;
 }
+@media screen and (max-width: 550px) {
+  .main-section-banner {
+    background-position: right, bottom;
+    background-repeat: no-repeat;
+    background-size: 28%;
+  }
+}
