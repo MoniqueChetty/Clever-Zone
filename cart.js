@@ -28,7 +28,7 @@ function generateCartItems(cartItems) {
                 <img class="w-full h-full object-contain" src="${item.image}">
             </div>
             <!-- Item Details -->
-            <div class="cart-item-details flex-grow">
+            <div class="cart-item-details w-1/2">
                 <div class="cart-item-title font-bold text-sm text-gray-600">
                     ${item.name}
                 </div>
